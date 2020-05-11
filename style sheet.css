@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+
+.parallax {
+  /* The image used */
+  background-image: url("Images/shutterstock_169450007-5bfc2f7f46e0fb002602296e.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFC300
+}
+
+nav li {
+	float: right;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding: 25px 16px;
+	text-decoration: none;
+	font-size:120%;
+}
+
+nav li a:hover,
+footer a:hover{
+	background-color: #FFEA19;
+	position: relative
+}
+
+.float_right{
+	float:right;
+	padding:10px;
+}
+body{
+	width:80%;
+	background-color:#DEDEDE;
+	font-size: medium;
+	text-align: justify;
+	margin:auto;
+	font-family: 'Lato', sans-serif;
+}
+
+header img{
+	width: 100%;
+}
+
+H1{
+	color: goldenrod;
+}
+
+li{
+	padding: 10px;
+}
+
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#wrapper {
+    min-height:25%;
+    position:relative;
+}
+#header {
+    padding:10px;
+}
+main {
+    padding:10px;
+    padding-bottom:80px;   /* Height of the footer element */
+}
+
+footer{
+	background-color: #FFC300;
+	color: white;
+	text-align: center;
+	bottom:0;
+    left:0;
+	
+}
